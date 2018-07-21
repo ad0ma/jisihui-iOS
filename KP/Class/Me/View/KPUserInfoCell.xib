@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationLevel="3" indentationWidth="10" rowHeight="68" id="KGk-i7-Jjw" customClass="KPUserInfoCell" customModule="KP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="au7-nI-DTf">
+                        <rect key="frame" x="14" y="0.0" width="347" height="49.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_email" translatesAutoresizingMaskIntoConstraints="NO" id="6db-eG-leR">
+                                <rect key="frame" x="0.0" y="0.0" width="49.5" height="49.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6db-eG-leR" secondAttribute="height" id="hH3-jS-ape"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iog-Ej-kUD">
+                                <rect key="frame" x="49.5" y="10.5" width="31" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPE-Qx-5m5">
+                                <rect key="frame" x="49.5" y="25" width="37.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_right_more" translatesAutoresizingMaskIntoConstraints="NO" id="wOM-Vo-JbE">
+                                <rect key="frame" x="297.5" y="-1" width="49.5" height="50"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wOM-Vo-JbE" firstAttribute="height" secondItem="6db-eG-leR" secondAttribute="height" id="6gT-Fo-1K0"/>
+                            <constraint firstItem="Iog-Ej-kUD" firstAttribute="bottom" secondItem="au7-nI-DTf" secondAttribute="centerY" id="JfQ-ci-8oc"/>
+                            <constraint firstAttribute="trailing" secondItem="wOM-Vo-JbE" secondAttribute="trailing" id="LIU-cq-UfL"/>
+                            <constraint firstAttribute="bottom" secondItem="6db-eG-leR" secondAttribute="bottom" id="NM9-41-eg8"/>
+                            <constraint firstItem="wOM-Vo-JbE" firstAttribute="centerY" secondItem="6db-eG-leR" secondAttribute="centerY" id="QAg-RI-RWM"/>
+                            <constraint firstItem="6db-eG-leR" firstAttribute="leading" secondItem="au7-nI-DTf" secondAttribute="leading" id="QI3-uW-q8a"/>
+                            <constraint firstItem="Iog-Ej-kUD" firstAttribute="leading" secondItem="6db-eG-leR" secondAttribute="trailing" id="QZE-CD-3XA"/>
+                            <constraint firstItem="6db-eG-leR" firstAttribute="top" secondItem="au7-nI-DTf" secondAttribute="top" id="VxU-sn-iCV"/>
+                            <constraint firstItem="UPE-Qx-5m5" firstAttribute="leading" secondItem="Iog-Ej-kUD" secondAttribute="leading" id="auy-yp-6BV"/>
+                            <constraint firstItem="wOM-Vo-JbE" firstAttribute="width" secondItem="6db-eG-leR" secondAttribute="width" id="hDw-X6-Thf"/>
+                            <constraint firstItem="UPE-Qx-5m5" firstAttribute="top" secondItem="au7-nI-DTf" secondAttribute="centerY" id="kBQ-PF-uRQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="au7-nI-DTf" secondAttribute="trailing" constant="14" id="BUO-Cz-9E4"/>
+                    <constraint firstItem="au7-nI-DTf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="GKf-yp-Snr"/>
+                    <constraint firstAttribute="bottom" secondItem="au7-nI-DTf" secondAttribute="bottom" id="RjG-9l-bGY"/>
+                    <constraint firstItem="au7-nI-DTf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="zVa-bl-ios"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgV" destination="6db-eG-leR" id="noG-Vq-v2k"/>
+                <outlet property="info" destination="UPE-Qx-5m5" id="5ra-D2-Aqk"/>
+                <outlet property="rightImg" destination="wOM-Vo-JbE" id="dFg-t7-gTk"/>
+                <outlet property="title" destination="Iog-Ej-kUD" id="wAh-XV-lCp"/>
+            </connections>
+            <point key="canvasLocation" x="-92" y="-79"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_email" width="24" height="24"/>
+        <image name="ic_right_more" width="18" height="18"/>
+    </resources>
+</document>

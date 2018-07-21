@@ -1,0 +1,38 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+	desc "提交测试"
+	lane :test do
+		cert(development: true, output_path: "./fastlane/cert/test")
+		sigh(development: true, force: true, output_path: "./fastlane/cert/test")
+		gym(scheme: "KP",
+			workspace: "KP.xcworkspace",
+			configuration: "Debug",
+			output_name: "集思会测试版.ipa",
+			export_method: "development",
+			silent: true,
+			clean: true,
+			output_directory: "./fastlane/package/test",
+			include_bitcode: true)
+		pgyer(api_key: "", 
+			  user_key: "")
+		notification(title: "测试包上传成功！😄",
+					message: "点击打开蒲公英网址",
+					open: "http://pgyer.com/jisihui")
+	end
+end

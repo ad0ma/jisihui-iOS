@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="141" id="KGk-i7-Jjw" customClass="KPIdearListTableViewCell" customModule="KP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="141"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="366" height="140.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xFz-2r-MdD">
+                        <rect key="frame" x="15" y="45.5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="ihz-jQ-YQn"/>
+                            <constraint firstAttribute="width" constant="50" id="k5e-bL-Njg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="王小波的书是越看越有意思。王小波的书是越看越有意思。王小波的书是越看越有意思。王小波的书是越看越有意思。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ph0-Ex-Bmc">
+                        <rect key="frame" x="75" y="10" width="276" height="100.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看86条评论&gt;&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dze-Hx-Ikb">
+                        <rect key="frame" x="258.5" y="110.5" width="92.5" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dze-Hx-Ikb" firstAttribute="top" secondItem="ph0-Ex-Bmc" secondAttribute="bottom" id="26Q-nw-tcT"/>
+                    <constraint firstItem="xFz-2r-MdD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Fib-nL-gpn"/>
+                    <constraint firstAttribute="trailing" secondItem="ph0-Ex-Bmc" secondAttribute="trailing" constant="15" id="I2X-dt-TJa"/>
+                    <constraint firstAttribute="trailing" secondItem="dze-Hx-Ikb" secondAttribute="trailing" constant="15" id="SwF-hX-nCi"/>
+                    <constraint firstAttribute="bottom" secondItem="ph0-Ex-Bmc" secondAttribute="bottom" constant="30" id="V8h-RG-eoz"/>
+                    <constraint firstItem="ph0-Ex-Bmc" firstAttribute="leading" secondItem="xFz-2r-MdD" secondAttribute="trailing" constant="10" id="Ynn-4U-t8m"/>
+                    <constraint firstItem="xFz-2r-MdD" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bNJ-PE-lTu"/>
+                    <constraint firstItem="ph0-Ex-Bmc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="m1B-jk-sdw"/>
+                    <constraint firstAttribute="bottom" secondItem="dze-Hx-Ikb" secondAttribute="bottom" id="uUc-Mh-B8B"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="commentCountLabel" destination="dze-Hx-Ikb" id="kG7-Ve-zRM"/>
+                <outlet property="contentLabel" destination="ph0-Ex-Bmc" id="oJC-iQ-ByG"/>
+                <outlet property="imgV" destination="xFz-2r-MdD" id="Zgv-8j-TpH"/>
+            </connections>
+            <point key="canvasLocation" x="118" y="102.5"/>
+        </tableViewCell>
+    </objects>
+</document>

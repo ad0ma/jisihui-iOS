@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Bugly (2.5.0)
+  - GTSDK (2.3.0.0)
+  - HappyDNS (0.3.14)
+  - IQKeyboardManagerSwift (6.0.4)
+  - Kingfisher (4.8.0)
+  - Qiniu (7.2.4):
+    - HappyDNS (~> 0.3)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (4.1.0)
+  - tingyunApp (2.7.2)
+  - UMengAnalytics-NO-IDFA (4.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - Bugly
+  - GTSDK
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - Qiniu
+  - SnapKit
+  - SwiftyJSON
+  - tingyunApp (~> 2.7.0)
+  - UMengAnalytics-NO-IDFA
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bugly
+    - GTSDK
+    - HappyDNS
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Qiniu
+    - SnapKit
+    - SwiftyJSON
+    - tingyunApp
+    - UMengAnalytics-NO-IDFA
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  GTSDK: 16f570807190eca9846653886a1f399cb0485061
+  HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
+  IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  Qiniu: 65384bca1cdb0480a68d9b9b8f54db53418c0355
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  tingyunApp: 2ac6913ba7076259230b56d4a7c8b3eff4faed46
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+
+PODFILE CHECKSUM: f4475c994364078910dd6de151b4312b739ce94c
+
+COCOAPODS: 1.5.3

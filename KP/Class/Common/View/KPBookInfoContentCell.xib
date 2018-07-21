@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="KPBookInfoContentCell" customModule="KP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1P1-O9-2LI">
+                        <rect key="frame" x="0.0" y="0.0" width="325" height="100"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="owm-XE-K5o">
+                                <rect key="frame" x="10" y="0.0" width="305" height="55"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXY-CU-cFn">
+                                <rect key="frame" x="123" y="65" width="80" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="0ek-qg-ZjJ"/>
+                                    <constraint firstAttribute="width" constant="80" id="Su7-nr-rrw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="readAllBtnTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="AbW-gy-bEL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hXY-CU-cFn" firstAttribute="top" secondItem="owm-XE-K5o" secondAttribute="bottom" constant="10" id="FWQ-V9-mLK"/>
+                            <constraint firstAttribute="trailing" secondItem="owm-XE-K5o" secondAttribute="trailing" constant="10" id="FoD-wq-BeT"/>
+                            <constraint firstAttribute="bottom" secondItem="hXY-CU-cFn" secondAttribute="bottom" constant="5" id="I8L-75-Tjy"/>
+                            <constraint firstItem="owm-XE-K5o" firstAttribute="top" secondItem="1P1-O9-2LI" secondAttribute="top" id="Inj-QA-F8y"/>
+                            <constraint firstItem="owm-XE-K5o" firstAttribute="leading" secondItem="1P1-O9-2LI" secondAttribute="leading" constant="10" id="l3V-kM-Qpq"/>
+                            <constraint firstItem="hXY-CU-cFn" firstAttribute="centerX" secondItem="1P1-O9-2LI" secondAttribute="centerX" id="sDr-3U-631"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="1P1-O9-2LI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3lT-9u-KB1"/>
+                <constraint firstItem="1P1-O9-2LI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Fj6-bE-9xS"/>
+                <constraint firstAttribute="trailing" secondItem="1P1-O9-2LI" secondAttribute="trailing" id="Qlp-Nm-TLZ"/>
+                <constraint firstAttribute="bottom" secondItem="1P1-O9-2LI" secondAttribute="bottom" id="sfX-cg-DiI"/>
+            </constraints>
+            <connections>
+                <outlet property="bookContent" destination="owm-XE-K5o" id="Hrd-tr-uI9"/>
+                <outlet property="readAllBtn" destination="hXY-CU-cFn" id="l8a-Op-Yff"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </collectionViewCell>
+    </objects>
+</document>

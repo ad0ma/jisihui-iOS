@@ -1,0 +1,1334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EDE5D591F0536AF009BDD75 /* KPMoreInsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D571F0536AF009BDD75 /* KPMoreInsController.swift */; };
+		0EDE5D5A1F0536AF009BDD75 /* KPMoreInsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EDE5D581F0536AF009BDD75 /* KPMoreInsController.xib */; };
+		0EDE5D5D1F054F2A009BDD75 /* KPAboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D5B1F054F2A009BDD75 /* KPAboutController.swift */; };
+		0EDE5D5E1F054F2A009BDD75 /* KPAboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EDE5D5C1F054F2A009BDD75 /* KPAboutController.xib */; };
+		0EF9DC831F565CD800BD149E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF9DC821F565CD800BD149E /* AdSupport.framework */; };
+		0EF9DC851F565CE700BD149E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF9DC841F565CE700BD149E /* CoreLocation.framework */; };
+		0EF9DC871F565CF200BD149E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF9DC861F565CF200BD149E /* QuartzCore.framework */; };
+		0EF9DC891F565CFD00BD149E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF9DC881F565CFD00BD149E /* SystemConfiguration.framework */; };
+		0EF9DC8B1F565D0500BD149E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF9DC8A1F565D0500BD149E /* CoreTelephony.framework */; };
+		0EF9DC8D1F565D1800BD149E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF9DC8C1F565D1800BD149E /* libz.tbd */; };
+		0EF9DC8F1F565D2500BD149E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF9DC8E1F565D2500BD149E /* Security.framework */; };
+		0EF9DC911F565D2B00BD149E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF9DC901F565D2B00BD149E /* StoreKit.framework */; };
+		0EF9DC9C1F565E0000BD149E /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF9DC9B1F565E0000BD149E /* libGDTMobSDK.a */; };
+		1E6B52192065FCE50066EE49 /* KPUserCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6B52182065FCE50066EE49 /* KPUserCenter.swift */; };
+		1EE10D3320564C4100D28BA0 /* KPAllSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE10D3220564C4100D28BA0 /* KPAllSearchView.swift */; };
+		1EE10D362056652B00D28BA0 /* KPSearchBookListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE10D342056652B00D28BA0 /* KPSearchBookListCell.swift */; };
+		1EE10D372056652B00D28BA0 /* KPSearchBookListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE10D352056652B00D28BA0 /* KPSearchBookListCell.xib */; };
+		1EE10D3920568E0500D28BA0 /* MainNetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE10D3820568E0500D28BA0 /* MainNetworkApi.swift */; };
+		1EE10D3D2058F68A00D28BA0 /* KPUserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE10D3B2058F68A00D28BA0 /* KPUserListTableViewCell.swift */; };
+		1EE10D3E2058F68A00D28BA0 /* KPUserListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE10D3C2058F68A00D28BA0 /* KPUserListTableViewCell.xib */; };
+		1EE10D412058F6D900D28BA0 /* KPIdearListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE10D3F2058F6D900D28BA0 /* KPIdearListTableViewCell.swift */; };
+		1EE10D422058F6D900D28BA0 /* KPIdearListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE10D402058F6D900D28BA0 /* KPIdearListTableViewCell.xib */; };
+		1EE10D442059627700D28BA0 /* KPAllSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE10D432059627700D28BA0 /* KPAllSearchTableViewCell.swift */; };
+		1EE10D6A205A4BF000D28BA0 /* KPStaticResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE10D69205A4BF000D28BA0 /* KPStaticResultViewController.swift */; };
+		1EE10D6C205A5DA100D28BA0 /* KPVagueResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE10D6B205A5DA100D28BA0 /* KPVagueResultViewController.swift */; };
+		477C47B3201A101D0013DA83 /* KPShelfBookInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477C47B1201A101D0013DA83 /* KPShelfBookInfoCell.swift */; };
+		477C47B4201A101D0013DA83 /* KPShelfBookInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477C47B2201A101D0013DA83 /* KPShelfBookInfoCell.xib */; };
+		47C1F3CE2078AFF80077F30B /* KPIdeaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C1F3CD2078AFF80077F30B /* KPIdeaModel.swift */; };
+		47C1F3D32078B4ED0077F30B /* KPBookInfoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C1F3D12078B4ED0077F30B /* KPBookInfoHeaderView.swift */; };
+		47C1F3D42078B4ED0077F30B /* KPBookInfoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47C1F3D22078B4ED0077F30B /* KPBookInfoHeaderView.xib */; };
+		47C1F3D72078E7030077F30B /* KPBookInfoKeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C1F3D52078E7030077F30B /* KPBookInfoKeyCell.swift */; };
+		47C1F3D82078E7030077F30B /* KPBookInfoKeyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47C1F3D62078E7030077F30B /* KPBookInfoKeyCell.xib */; };
+		47C1F3DB2078EE5A0077F30B /* KPBookInfoDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C1F3D92078EE5A0077F30B /* KPBookInfoDetailCell.swift */; };
+		47C1F3DC2078EE5A0077F30B /* KPBookInfoDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47C1F3DA2078EE5A0077F30B /* KPBookInfoDetailCell.xib */; };
+		47C1F3DF20790C490077F30B /* KPBookInfoFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C1F3DD20790C490077F30B /* KPBookInfoFooterView.swift */; };
+		47C1F3E020790C490077F30B /* KPBookInfoFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47C1F3DE20790C490077F30B /* KPBookInfoFooterView.xib */; };
+		47C1F3E3207A40C40077F30B /* KPBookInfoContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C1F3E1207A40C40077F30B /* KPBookInfoContentCell.swift */; };
+		47C1F3E4207A40C40077F30B /* KPBookInfoContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47C1F3E2207A40C40077F30B /* KPBookInfoContentCell.xib */; };
+		47C1F3E620832EFB0077F30B /* KPBookInfoBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C1F3E520832EFB0077F30B /* KPBookInfoBaseCell.swift */; };
+		47D99782205570E600528B87 /* KPMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D99781205570E600528B87 /* KPMineViewController.swift */; };
+		47D997852055737800528B87 /* KPMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D997832055737800528B87 /* KPMineHeaderView.swift */; };
+		47D997862055737800528B87 /* KPMineHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D997842055737800528B87 /* KPMineHeaderView.xib */; };
+		47D997892056BCC000528B87 /* KPMineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D997872056BCC000528B87 /* KPMineCollectionViewCell.swift */; };
+		47D9978A2056BCC000528B87 /* KPMineCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D997882056BCC000528B87 /* KPMineCollectionViewCell.xib */; };
+		47D9978D2056BCCE00528B87 /* KPMineDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9978B2056BCCE00528B87 /* KPMineDetailCollectionViewCell.swift */; };
+		47D9978E2056BCCE00528B87 /* KPMineDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D9978C2056BCCE00528B87 /* KPMineDetailCollectionViewCell.xib */; };
+		47D99790205D5EBC00528B87 /* KPMineSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9978F205D5EBC00528B87 /* KPMineSettingViewController.swift */; };
+		47D99793205D6A8C00528B87 /* KPMineSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D99791205D6A8C00528B87 /* KPMineSettingTableViewCell.swift */; };
+		47D99794205D6A8C00528B87 /* KPMineSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D99792205D6A8C00528B87 /* KPMineSettingTableViewCell.xib */; };
+		47D9979B205E328700528B87 /* KPNicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D99799205E328700528B87 /* KPNicknameViewController.swift */; };
+		47D9979C205E328700528B87 /* KPNicknameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D9979A205E328700528B87 /* KPNicknameViewController.xib */; };
+		47D9979E205E3EB700528B87 /* KPCustomSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9979D205E3EB700528B87 /* KPCustomSignatureView.swift */; };
+		47D997A0205E3EC200528B87 /* KPCustomSignatureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D9979F205E3EC200528B87 /* KPCustomSignatureView.xib */; };
+		47FF40B820776F7E0061165F /* KPBookIdeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF40B620776F7E0061165F /* KPBookIdeaCell.swift */; };
+		47FF40B920776F7E0061165F /* KPBookIdeaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47FF40B720776F7E0061165F /* KPBookIdeaCell.xib */; };
+		47FF40BC207774D60061165F /* KPGuessBookInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FF40BA207774D60061165F /* KPGuessBookInfoCell.swift */; };
+		47FF40BD207774D60061165F /* KPGuessBookInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47FF40BB207774D60061165F /* KPGuessBookInfoCell.xib */; };
+		5E11F5431EE4E7F600217A41 /* KPPushCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F5421EE4E7F600217A41 /* KPPushCollectionController.swift */; };
+		5E11F5461EE4E91900217A41 /* KPPushCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F5441EE4E91900217A41 /* KPPushCollectionCell.swift */; };
+		5E11F5471EE4E91900217A41 /* KPPushCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E11F5451EE4E91900217A41 /* KPPushCollectionCell.xib */; };
+		5E11F5491EE4F47900217A41 /* KPUserInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F5481EE4F47900217A41 /* KPUserInfoController.swift */; };
+		5E11F54C1EE4F96000217A41 /* KPUserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F54A1EE4F96000217A41 /* KPUserInfoCell.swift */; };
+		5E11F54D1EE4F96000217A41 /* KPUserInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E11F54B1EE4F96000217A41 /* KPUserInfoCell.xib */; };
+		5E11F54F1EE5056400217A41 /* KPUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F54E1EE5056400217A41 /* KPUser.swift */; };
+		5E11F5521EE51A6B00217A41 /* KPLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F5501EE51A6B00217A41 /* KPLoginController.swift */; };
+		5E11F5531EE51A6B00217A41 /* KPLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E11F5511EE51A6B00217A41 /* KPLoginController.xib */; };
+		5E11F5571EE53C7D00217A41 /* KPNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F5561EE53C7D00217A41 /* KPNetWork.swift */; };
+		5E11F5591EE5764D00217A41 /* KPHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F5581EE5764D00217A41 /* KPHud.swift */; };
+		5E11F5691EE63C9C00217A41 /* IndicatorFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F55E1EE63C9C00217A41 /* IndicatorFooter.swift */; };
+		5E11F56A1EE63C9C00217A41 /* IndicatorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F55F1EE63C9C00217A41 /* IndicatorHeader.swift */; };
+		5E11F56B1EE63C9C00217A41 /* IndicatorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F5601EE63C9C00217A41 /* IndicatorItem.swift */; };
+		5E11F56C1EE63C9C00217A41 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F5611EE63C9C00217A41 /* RefreshView.swift */; };
+		5E11F56D1EE63C9C00217A41 /* ScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E11F5621EE63C9C00217A41 /* ScrollViewExtension.swift */; };
+		5E25522320E31A32008CA4BC /* KPPaymentQRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E25522120E31A32008CA4BC /* KPPaymentQRCodeController.swift */; };
+		5E25522420E31A32008CA4BC /* KPPaymentQRCodeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E25522220E31A32008CA4BC /* KPPaymentQRCodeController.xib */; };
+		5E3401E11F175AEA00283463 /* KPPaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3401E01F175AEA00283463 /* KPPaymentController.swift */; };
+		5E3401E41F17938000283463 /* KPPayInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3401E21F17938000283463 /* KPPayInfoCell.swift */; };
+		5E3401E51F17938000283463 /* KPPayInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E3401E31F17938000283463 /* KPPayInfoCell.xib */; };
+		5E38DFB21EE78F2100F64D71 /* KPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E38DFB11EE78F2100F64D71 /* KPModel.swift */; };
+		5E4D85F01FF9116E006A3D48 /* KPLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4D85EF1FF9116E006A3D48 /* KPLogController.swift */; };
+		5E5647461ED824C400CB972D /* KPMainEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647441ED824C400CB972D /* KPMainEntryCell.swift */; };
+		5E5647471ED824C400CB972D /* KPMainEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5647451ED824C400CB972D /* KPMainEntryCell.xib */; };
+		5E5647511ED96D7C00CB972D /* KPMainBooksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56474F1ED96D7C00CB972D /* KPMainBooksCell.swift */; };
+		5E5647521ED96D7C00CB972D /* KPMainBooksCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5647501ED96D7C00CB972D /* KPMainBooksCell.xib */; };
+		5E5647541ED97BB200CB972D /* KPBookListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647531ED97BB200CB972D /* KPBookListController.swift */; };
+		5E5647591ED97C7A00CB972D /* KPBookInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647571ED97C7A00CB972D /* KPBookInfoCell.swift */; };
+		5E56475A1ED97C7A00CB972D /* KPBookInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5647581ED97C7A00CB972D /* KPBookInfoCell.xib */; };
+		5E56475D1ED9887A00CB972D /* KPWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56475B1ED9887A00CB972D /* KPWebViewController.swift */; };
+		5E5647601EDC579800CB972D /* KPRankListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56475F1EDC579800CB972D /* KPRankListController.swift */; };
+		5E5647621EDC617E00CB972D /* KPBookCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647611EDC617E00CB972D /* KPBookCollectionController.swift */; };
+		5E5647651EDC62FE00CB972D /* KPBookCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647631EDC62FE00CB972D /* KPBookCollectionCell.swift */; };
+		5E5647661EDC62FE00CB972D /* KPBookCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5647641EDC62FE00CB972D /* KPBookCollectionCell.xib */; };
+		5E5647761EDDBCD700CB972D /* RatingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647751EDDBCD700CB972D /* RatingBar.swift */; };
+		5E56477C1EDEB5C500CB972D /* KPBookInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56477B1EDEB5C500CB972D /* KPBookInfoController.swift */; };
+		5E56477F1EDEC1AC00CB972D /* KPBookInfoHeadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56477D1EDEC1AC00CB972D /* KPBookInfoHeadCell.swift */; };
+		5E5647801EDEC1AC00CB972D /* KPBookInfoHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E56477E1EDEC1AC00CB972D /* KPBookInfoHeadCell.xib */; };
+		5E5647831EDEC8A800CB972D /* KPBookFormatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647811EDEC8A800CB972D /* KPBookFormatCell.swift */; };
+		5E5647871EDEF29E00CB972D /* KPBookInsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647851EDEF29E00CB972D /* KPBookInsCell.swift */; };
+		5E5647881EDEF29E00CB972D /* KPBookInsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5647861EDEF29E00CB972D /* KPBookInsCell.xib */; };
+		5E56478A1EDF139700CB972D /* ADButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647891EDF139700CB972D /* ADButton.swift */; };
+		5E5647911EE027FD00CB972D /* KPBookCategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56478F1EE027FD00CB972D /* KPBookCategoryController.swift */; };
+		5E5647941EE02B9F00CB972D /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E5647931EE02B9F00CB972D /* category.json */; };
+		5E5647971EE0363500CB972D /* KPBookCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647951EE0363500CB972D /* KPBookCategoryCell.swift */; };
+		5E5647981EE0363500CB972D /* KPBookCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5647961EE0363500CB972D /* KPBookCategoryCell.xib */; };
+		5E5647BE1EE2A58900CB972D /* KPBookInfoNoDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647BC1EE2A58900CB972D /* KPBookInfoNoDetailCell.swift */; };
+		5E5647BF1EE2A58900CB972D /* KPBookInfoNoDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5647BD1EE2A58900CB972D /* KPBookInfoNoDetailCell.xib */; };
+		5E5647C11EE2ACDE00CB972D /* KPMainSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647C01EE2ACDE00CB972D /* KPMainSearchController.swift */; };
+		5E5647C31EE2E66C00CB972D /* KPRootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5647C21EE2E66C00CB972D /* KPRootNavigationController.swift */; };
+		5E92CEF31FEE29EA003EDA6D /* KPBookShelfController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E92CEF21FEE29EA003EDA6D /* KPBookShelfController.swift */; };
+		5EA2B9D51F4FCB8800D817D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA2B9D41F4FCB8800D817D1 /* Assets.xcassets */; };
+		5EA2B9EA1F51764600D817D1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA2B9E91F51764600D817D1 /* Launch Screen.storyboard */; };
+		5EAB0319208D72A1009C1B84 /* KPEmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB0317208D72A1009C1B84 /* KPEmptyTableViewCell.swift */; };
+		5EAB031A208D72A1009C1B84 /* KPEmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EAB0318208D72A1009C1B84 /* KPEmptyTableViewCell.xib */; };
+		5EE063461FA9589C0053814B /* KPTagSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE063451FA9589C0053814B /* KPTagSearchController.swift */; };
+		5EE063491FA95A280053814B /* KPEmpty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EE063471FA95A270053814B /* KPEmpty.xib */; };
+		5EE0634A1FA95A280053814B /* KPEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE063481FA95A280053814B /* KPEmpty.swift */; };
+		5EE549A21F0DDBFA006397A2 /* KPLaunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE549A11F0DDBFA006397A2 /* KPLaunchController.swift */; };
+		5EE959AB20C3C2E500A45AA9 /* KPIdeaHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE959AA20C3C2E500A45AA9 /* KPIdeaHistoryController.swift */; };
+		5EE959AE20C3C74000A45AA9 /* KPIdeaHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE959AC20C3C74000A45AA9 /* KPIdeaHistoryCell.swift */; };
+		5EE959AF20C3C74000A45AA9 /* KPIdeaHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EE959AD20C3C74000A45AA9 /* KPIdeaHistoryCell.xib */; };
+		5EED85F02090113C00B08F21 /* YBPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EED85EF2090113C00B08F21 /* YBPopupMenu.m */; };
+		5EF1498F1ED7D124001FD34A /* KPMainHeaderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF1498E1ED7D124001FD34A /* KPMainHeaderScrollView.swift */; };
+		5EF3D3FD1ED3C59600C849B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D3F21ED3C59600C849B7 /* AppDelegate.swift */; };
+		5EF3D4031ED3C80800C849B7 /* KPDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D4021ED3C80800C849B7 /* KPDefine.swift */; };
+		5EF3D4051ED3C9E700C849B7 /* KPCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D4041ED3C9E700C849B7 /* KPCategory.swift */; };
+		5EF3D4071ED3CE3400C849B7 /* KPBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D4061ED3CE3400C849B7 /* KPBaseTabBarController.swift */; };
+		5EF3D4091ED3D41E00C849B7 /* KPBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D4081ED3D41E00C849B7 /* KPBaseNavigationController.swift */; };
+		5EF3D40B1ED3DD0E00C849B7 /* KPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D40A1ED3DD0E00C849B7 /* KPBaseViewController.swift */; };
+		5EF3D40D1ED3DD7800C849B7 /* KPMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D40C1ED3DD7800C849B7 /* KPMainController.swift */; };
+		5EF3D40F1ED3E44B00C849B7 /* KPSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF3D40E1ED3E44B00C849B7 /* KPSegmentedControl.swift */; };
+		711C286020456E7800C1D0DF /* KPAddIdeaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C285E20456E7800C1D0DF /* KPAddIdeaController.swift */; };
+		711C286320456EB100C1D0DF /* AddIdeaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711C286220456EB100C1D0DF /* AddIdeaStoryboard.storyboard */; };
+		71208460204A4E0000F79DB6 /* SelectBookStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7120845F204A4E0000F79DB6 /* SelectBookStoryboard.storyboard */; };
+		71208462204A4E3000F79DB6 /* KPSelectBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71208461204A4E3000F79DB6 /* KPSelectBookController.swift */; };
+		71208465204A518700F79DB6 /* KPSelectBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71208463204A518700F79DB6 /* KPSelectBookCell.swift */; };
+		71208466204A518700F79DB6 /* KPSelectBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71208464204A518700F79DB6 /* KPSelectBookCell.xib */; };
+		71404F4C2029724500832B20 /* KPIdeaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71404F4B2029724500832B20 /* KPIdeaController.swift */; };
+		71404F692029E76800832B20 /* KPIdeaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71404F672029E76800832B20 /* KPIdeaTableViewCell.swift */; };
+		71404F6A2029E76800832B20 /* KPIdeaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71404F682029E76800832B20 /* KPIdeaTableViewCell.xib */; };
+		71687F72202ACEDF00FB3BA9 /* KPIdeaBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71687F71202ACEDF00FB3BA9 /* KPIdeaBookView.swift */; };
+		71687F74202ACEF200FB3BA9 /* KPIdeaBookView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71687F73202ACEF200FB3BA9 /* KPIdeaBookView.xib */; };
+		71687F7E202B0CEC00FB3BA9 /* ImagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71687F79202B0CEC00FB3BA9 /* ImagePreview.swift */; };
+		71687F85202B122300FB3BA9 /* ImagePreview+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71687F84202B122300FB3BA9 /* ImagePreview+Extension.swift */; };
+		E7DC35492160C3023FC51ABE /* Pods_KP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FAFE07B47CE187C785FA2C /* Pods_KP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E9450641FB9852A00F2BAC2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0EDE5D571F0536AF009BDD75 /* KPMoreInsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPMoreInsController.swift; sourceTree = "<group>"; };
+		0EDE5D581F0536AF009BDD75 /* KPMoreInsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPMoreInsController.xib; sourceTree = "<group>"; };
+		0EDE5D5B1F054F2A009BDD75 /* KPAboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPAboutController.swift; sourceTree = "<group>"; };
+		0EDE5D5C1F054F2A009BDD75 /* KPAboutController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPAboutController.xib; sourceTree = "<group>"; };
+		0EF9DC821F565CD800BD149E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		0EF9DC841F565CE700BD149E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0EF9DC861F565CF200BD149E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0EF9DC881F565CFD00BD149E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0EF9DC8A1F565D0500BD149E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0EF9DC8C1F565D1800BD149E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0EF9DC8E1F565D2500BD149E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0EF9DC901F565D2B00BD149E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0EF9DC941F565E0000BD149E /* GDTMobBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobBannerView.h; sourceTree = "<group>"; };
+		0EF9DC951F565E0000BD149E /* GDTMobInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobInterstitial.h; sourceTree = "<group>"; };
+		0EF9DC961F565E0000BD149E /* GDTNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeAd.h; sourceTree = "<group>"; };
+		0EF9DC971F565E0000BD149E /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAd.h; sourceTree = "<group>"; };
+		0EF9DC981F565E0000BD149E /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdView.h; sourceTree = "<group>"; };
+		0EF9DC991F565E0000BD149E /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
+		0EF9DC9A1F565E0000BD149E /* GDTTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTTrack.h; sourceTree = "<group>"; };
+		0EF9DC9B1F565E0000BD149E /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
+		1E6B52182065FCE50066EE49 /* KPUserCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPUserCenter.swift; sourceTree = "<group>"; };
+		1EE10D3220564C4100D28BA0 /* KPAllSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPAllSearchView.swift; sourceTree = "<group>"; };
+		1EE10D342056652B00D28BA0 /* KPSearchBookListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSearchBookListCell.swift; sourceTree = "<group>"; };
+		1EE10D352056652B00D28BA0 /* KPSearchBookListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPSearchBookListCell.xib; sourceTree = "<group>"; };
+		1EE10D3820568E0500D28BA0 /* MainNetworkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNetworkApi.swift; sourceTree = "<group>"; };
+		1EE10D3B2058F68A00D28BA0 /* KPUserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPUserListTableViewCell.swift; sourceTree = "<group>"; };
+		1EE10D3C2058F68A00D28BA0 /* KPUserListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPUserListTableViewCell.xib; sourceTree = "<group>"; };
+		1EE10D3F2058F6D900D28BA0 /* KPIdearListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIdearListTableViewCell.swift; sourceTree = "<group>"; };
+		1EE10D402058F6D900D28BA0 /* KPIdearListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPIdearListTableViewCell.xib; sourceTree = "<group>"; };
+		1EE10D432059627700D28BA0 /* KPAllSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPAllSearchTableViewCell.swift; sourceTree = "<group>"; };
+		1EE10D69205A4BF000D28BA0 /* KPStaticResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPStaticResultViewController.swift; sourceTree = "<group>"; };
+		1EE10D6B205A5DA100D28BA0 /* KPVagueResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPVagueResultViewController.swift; sourceTree = "<group>"; };
+		477C47B1201A101D0013DA83 /* KPShelfBookInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPShelfBookInfoCell.swift; sourceTree = "<group>"; };
+		477C47B2201A101D0013DA83 /* KPShelfBookInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPShelfBookInfoCell.xib; sourceTree = "<group>"; };
+		47C1F3CD2078AFF80077F30B /* KPIdeaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIdeaModel.swift; sourceTree = "<group>"; };
+		47C1F3D12078B4ED0077F30B /* KPBookInfoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPBookInfoHeaderView.swift; sourceTree = "<group>"; };
+		47C1F3D22078B4ED0077F30B /* KPBookInfoHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPBookInfoHeaderView.xib; sourceTree = "<group>"; };
+		47C1F3D52078E7030077F30B /* KPBookInfoKeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPBookInfoKeyCell.swift; sourceTree = "<group>"; };
+		47C1F3D62078E7030077F30B /* KPBookInfoKeyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPBookInfoKeyCell.xib; sourceTree = "<group>"; };
+		47C1F3D92078EE5A0077F30B /* KPBookInfoDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPBookInfoDetailCell.swift; sourceTree = "<group>"; };
+		47C1F3DA2078EE5A0077F30B /* KPBookInfoDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPBookInfoDetailCell.xib; sourceTree = "<group>"; };
+		47C1F3DD20790C490077F30B /* KPBookInfoFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPBookInfoFooterView.swift; sourceTree = "<group>"; };
+		47C1F3DE20790C490077F30B /* KPBookInfoFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPBookInfoFooterView.xib; sourceTree = "<group>"; };
+		47C1F3E1207A40C40077F30B /* KPBookInfoContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPBookInfoContentCell.swift; sourceTree = "<group>"; };
+		47C1F3E2207A40C40077F30B /* KPBookInfoContentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPBookInfoContentCell.xib; sourceTree = "<group>"; };
+		47C1F3E520832EFB0077F30B /* KPBookInfoBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPBookInfoBaseCell.swift; sourceTree = "<group>"; };
+		47D99781205570E600528B87 /* KPMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPMineViewController.swift; sourceTree = "<group>"; };
+		47D997832055737800528B87 /* KPMineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPMineHeaderView.swift; sourceTree = "<group>"; };
+		47D997842055737800528B87 /* KPMineHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPMineHeaderView.xib; sourceTree = "<group>"; };
+		47D997872056BCC000528B87 /* KPMineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPMineCollectionViewCell.swift; sourceTree = "<group>"; };
+		47D997882056BCC000528B87 /* KPMineCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPMineCollectionViewCell.xib; sourceTree = "<group>"; };
+		47D9978B2056BCCE00528B87 /* KPMineDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPMineDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		47D9978C2056BCCE00528B87 /* KPMineDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPMineDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		47D9978F205D5EBC00528B87 /* KPMineSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPMineSettingViewController.swift; sourceTree = "<group>"; };
+		47D99791205D6A8C00528B87 /* KPMineSettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPMineSettingTableViewCell.swift; sourceTree = "<group>"; };
+		47D99792205D6A8C00528B87 /* KPMineSettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPMineSettingTableViewCell.xib; sourceTree = "<group>"; };
+		47D99799205E328700528B87 /* KPNicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPNicknameViewController.swift; sourceTree = "<group>"; };
+		47D9979A205E328700528B87 /* KPNicknameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPNicknameViewController.xib; sourceTree = "<group>"; };
+		47D9979D205E3EB700528B87 /* KPCustomSignatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPCustomSignatureView.swift; sourceTree = "<group>"; };
+		47D9979F205E3EC200528B87 /* KPCustomSignatureView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPCustomSignatureView.xib; sourceTree = "<group>"; };
+		47FF40B620776F7E0061165F /* KPBookIdeaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPBookIdeaCell.swift; sourceTree = "<group>"; };
+		47FF40B720776F7E0061165F /* KPBookIdeaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPBookIdeaCell.xib; sourceTree = "<group>"; };
+		47FF40BA207774D60061165F /* KPGuessBookInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPGuessBookInfoCell.swift; sourceTree = "<group>"; };
+		47FF40BB207774D60061165F /* KPGuessBookInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPGuessBookInfoCell.xib; sourceTree = "<group>"; };
+		5E11F5421EE4E7F600217A41 /* KPPushCollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPPushCollectionController.swift; sourceTree = "<group>"; };
+		5E11F5441EE4E91900217A41 /* KPPushCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPPushCollectionCell.swift; sourceTree = "<group>"; };
+		5E11F5451EE4E91900217A41 /* KPPushCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPPushCollectionCell.xib; sourceTree = "<group>"; };
+		5E11F5481EE4F47900217A41 /* KPUserInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPUserInfoController.swift; sourceTree = "<group>"; };
+		5E11F54A1EE4F96000217A41 /* KPUserInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPUserInfoCell.swift; sourceTree = "<group>"; };
+		5E11F54B1EE4F96000217A41 /* KPUserInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPUserInfoCell.xib; sourceTree = "<group>"; };
+		5E11F54E1EE5056400217A41 /* KPUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPUser.swift; sourceTree = "<group>"; };
+		5E11F5501EE51A6B00217A41 /* KPLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPLoginController.swift; sourceTree = "<group>"; };
+		5E11F5511EE51A6B00217A41 /* KPLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPLoginController.xib; sourceTree = "<group>"; };
+		5E11F5561EE53C7D00217A41 /* KPNetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPNetWork.swift; sourceTree = "<group>"; };
+		5E11F5581EE5764D00217A41 /* KPHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPHud.swift; sourceTree = "<group>"; };
+		5E11F55E1EE63C9C00217A41 /* IndicatorFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorFooter.swift; sourceTree = "<group>"; };
+		5E11F55F1EE63C9C00217A41 /* IndicatorHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorHeader.swift; sourceTree = "<group>"; };
+		5E11F5601EE63C9C00217A41 /* IndicatorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorItem.swift; sourceTree = "<group>"; };
+		5E11F5611EE63C9C00217A41 /* RefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
+		5E11F5621EE63C9C00217A41 /* ScrollViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewExtension.swift; sourceTree = "<group>"; };
+		5E25522120E31A32008CA4BC /* KPPaymentQRCodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPPaymentQRCodeController.swift; sourceTree = "<group>"; };
+		5E25522220E31A32008CA4BC /* KPPaymentQRCodeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPPaymentQRCodeController.xib; sourceTree = "<group>"; };
+		5E3401E01F175AEA00283463 /* KPPaymentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPPaymentController.swift; sourceTree = "<group>"; };
+		5E3401E21F17938000283463 /* KPPayInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPPayInfoCell.swift; sourceTree = "<group>"; };
+		5E3401E31F17938000283463 /* KPPayInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPPayInfoCell.xib; sourceTree = "<group>"; };
+		5E38DFB11EE78F2100F64D71 /* KPModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPModel.swift; sourceTree = "<group>"; };
+		5E4D85EF1FF9116E006A3D48 /* KPLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPLogController.swift; sourceTree = "<group>"; };
+		5E5647441ED824C400CB972D /* KPMainEntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPMainEntryCell.swift; sourceTree = "<group>"; };
+		5E5647451ED824C400CB972D /* KPMainEntryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPMainEntryCell.xib; sourceTree = "<group>"; };
+		5E56474F1ED96D7C00CB972D /* KPMainBooksCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPMainBooksCell.swift; sourceTree = "<group>"; };
+		5E5647501ED96D7C00CB972D /* KPMainBooksCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPMainBooksCell.xib; sourceTree = "<group>"; };
+		5E5647531ED97BB200CB972D /* KPBookListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KPBookListController.swift; path = ../../Main/Controller/KPBookListController.swift; sourceTree = "<group>"; };
+		5E5647571ED97C7A00CB972D /* KPBookInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KPBookInfoCell.swift; path = ../../Main/View/KPBookInfoCell.swift; sourceTree = "<group>"; };
+		5E5647581ED97C7A00CB972D /* KPBookInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KPBookInfoCell.xib; path = ../../Main/View/KPBookInfoCell.xib; sourceTree = "<group>"; };
+		5E56475B1ED9887A00CB972D /* KPWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPWebViewController.swift; sourceTree = "<group>"; };
+		5E56475F1EDC579800CB972D /* KPRankListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPRankListController.swift; sourceTree = "<group>"; };
+		5E5647611EDC617E00CB972D /* KPBookCollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPBookCollectionController.swift; sourceTree = "<group>"; };
+		5E5647631EDC62FE00CB972D /* KPBookCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPBookCollectionCell.swift; sourceTree = "<group>"; };
+		5E5647641EDC62FE00CB972D /* KPBookCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPBookCollectionCell.xib; sourceTree = "<group>"; };
+		5E5647751EDDBCD700CB972D /* RatingBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingBar.swift; sourceTree = "<group>"; };
+		5E56477B1EDEB5C500CB972D /* KPBookInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPBookInfoController.swift; sourceTree = "<group>"; };
+		5E56477D1EDEC1AC00CB972D /* KPBookInfoHeadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPBookInfoHeadCell.swift; sourceTree = "<group>"; };
+		5E56477E1EDEC1AC00CB972D /* KPBookInfoHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPBookInfoHeadCell.xib; sourceTree = "<group>"; };
+		5E5647811EDEC8A800CB972D /* KPBookFormatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPBookFormatCell.swift; sourceTree = "<group>"; };
+		5E5647851EDEF29E00CB972D /* KPBookInsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPBookInsCell.swift; sourceTree = "<group>"; };
+		5E5647861EDEF29E00CB972D /* KPBookInsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPBookInsCell.xib; sourceTree = "<group>"; };
+		5E5647891EDF139700CB972D /* ADButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADButton.swift; sourceTree = "<group>"; };
+		5E56478F1EE027FD00CB972D /* KPBookCategoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPBookCategoryController.swift; sourceTree = "<group>"; };
+		5E5647931EE02B9F00CB972D /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		5E5647951EE0363500CB972D /* KPBookCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPBookCategoryCell.swift; sourceTree = "<group>"; };
+		5E5647961EE0363500CB972D /* KPBookCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPBookCategoryCell.xib; sourceTree = "<group>"; };
+		5E5647BC1EE2A58900CB972D /* KPBookInfoNoDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KPBookInfoNoDetailCell.swift; path = ../../Main/View/KPBookInfoNoDetailCell.swift; sourceTree = "<group>"; };
+		5E5647BD1EE2A58900CB972D /* KPBookInfoNoDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = KPBookInfoNoDetailCell.xib; path = ../../Main/View/KPBookInfoNoDetailCell.xib; sourceTree = "<group>"; };
+		5E5647C01EE2ACDE00CB972D /* KPMainSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPMainSearchController.swift; sourceTree = "<group>"; };
+		5E5647C21EE2E66C00CB972D /* KPRootNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPRootNavigationController.swift; sourceTree = "<group>"; };
+		5E92CEF21FEE29EA003EDA6D /* KPBookShelfController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPBookShelfController.swift; sourceTree = "<group>"; };
+		5E9450541FB9850300F2BAC2 /* KP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KP.entitlements; sourceTree = "<group>"; };
+		5E9B522E1F0CE3A90084ADAA /* KP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KP-Bridging-Header.h"; sourceTree = "<group>"; };
+		5EA2B9D41F4FCB8800D817D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EA2B9E91F51764600D817D1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5EAB0317208D72A1009C1B84 /* KPEmptyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPEmptyTableViewCell.swift; sourceTree = "<group>"; };
+		5EAB0318208D72A1009C1B84 /* KPEmptyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPEmptyTableViewCell.xib; sourceTree = "<group>"; };
+		5EE063451FA9589C0053814B /* KPTagSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPTagSearchController.swift; sourceTree = "<group>"; };
+		5EE063471FA95A270053814B /* KPEmpty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPEmpty.xib; sourceTree = "<group>"; };
+		5EE063481FA95A280053814B /* KPEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPEmpty.swift; sourceTree = "<group>"; };
+		5EE549A11F0DDBFA006397A2 /* KPLaunchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPLaunchController.swift; sourceTree = "<group>"; };
+		5EE959AA20C3C2E500A45AA9 /* KPIdeaHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIdeaHistoryController.swift; sourceTree = "<group>"; };
+		5EE959AC20C3C74000A45AA9 /* KPIdeaHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIdeaHistoryCell.swift; sourceTree = "<group>"; };
+		5EE959AD20C3C74000A45AA9 /* KPIdeaHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPIdeaHistoryCell.xib; sourceTree = "<group>"; };
+		5EED85EE2090113C00B08F21 /* YBPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenu.h; sourceTree = "<group>"; };
+		5EED85EF2090113C00B08F21 /* YBPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenu.m; sourceTree = "<group>"; };
+		5EF1498E1ED7D124001FD34A /* KPMainHeaderScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPMainHeaderScrollView.swift; sourceTree = "<group>"; };
+		5EF3D3C51ED3C47C00C849B7 /* KP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF3D3F21ED3C59600C849B7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EF3D3F31ED3C59600C849B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EF3D4021ED3C80800C849B7 /* KPDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPDefine.swift; sourceTree = "<group>"; };
+		5EF3D4041ED3C9E700C849B7 /* KPCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPCategory.swift; sourceTree = "<group>"; };
+		5EF3D4061ED3CE3400C849B7 /* KPBaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPBaseTabBarController.swift; sourceTree = "<group>"; };
+		5EF3D4081ED3D41E00C849B7 /* KPBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPBaseNavigationController.swift; sourceTree = "<group>"; };
+		5EF3D40A1ED3DD0E00C849B7 /* KPBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPBaseViewController.swift; sourceTree = "<group>"; };
+		5EF3D40C1ED3DD7800C849B7 /* KPMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPMainController.swift; sourceTree = "<group>"; };
+		5EF3D40E1ED3E44B00C849B7 /* KPSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPSegmentedControl.swift; sourceTree = "<group>"; };
+		60FAFE07B47CE187C785FA2C /* Pods_KP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		711C285E20456E7800C1D0DF /* KPAddIdeaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPAddIdeaController.swift; sourceTree = "<group>"; };
+		711C286220456EB100C1D0DF /* AddIdeaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddIdeaStoryboard.storyboard; sourceTree = "<group>"; };
+		7120845F204A4E0000F79DB6 /* SelectBookStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectBookStoryboard.storyboard; sourceTree = "<group>"; };
+		71208461204A4E3000F79DB6 /* KPSelectBookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSelectBookController.swift; sourceTree = "<group>"; };
+		71208463204A518700F79DB6 /* KPSelectBookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPSelectBookCell.swift; sourceTree = "<group>"; };
+		71208464204A518700F79DB6 /* KPSelectBookCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPSelectBookCell.xib; sourceTree = "<group>"; };
+		71404F4B2029724500832B20 /* KPIdeaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIdeaController.swift; sourceTree = "<group>"; };
+		71404F672029E76800832B20 /* KPIdeaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIdeaTableViewCell.swift; sourceTree = "<group>"; };
+		71404F682029E76800832B20 /* KPIdeaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPIdeaTableViewCell.xib; sourceTree = "<group>"; };
+		71687F71202ACEDF00FB3BA9 /* KPIdeaBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIdeaBookView.swift; sourceTree = "<group>"; };
+		71687F73202ACEF200FB3BA9 /* KPIdeaBookView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KPIdeaBookView.xib; sourceTree = "<group>"; };
+		71687F79202B0CEC00FB3BA9 /* ImagePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreview.swift; sourceTree = "<group>"; };
+		71687F84202B122300FB3BA9 /* ImagePreview+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImagePreview+Extension.swift"; sourceTree = "<group>"; };
+		752B8CB7E264E8F54270C399 /* Pods-KP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KP/Pods-KP.debug.xcconfig"; sourceTree = "<group>"; };
+		FDE33000F4D25AC4B2535346 /* Pods-KP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KP.release.xcconfig"; path = "Pods/Target Support Files/Pods-KP/Pods-KP.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EF3D3C21ED3C47C00C849B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF9DC911F565D2B00BD149E /* StoreKit.framework in Frameworks */,
+				0EF9DC8F1F565D2500BD149E /* Security.framework in Frameworks */,
+				0EF9DC8D1F565D1800BD149E /* libz.tbd in Frameworks */,
+				0EF9DC9C1F565E0000BD149E /* libGDTMobSDK.a in Frameworks */,
+				0EF9DC8B1F565D0500BD149E /* CoreTelephony.framework in Frameworks */,
+				0EF9DC891F565CFD00BD149E /* SystemConfiguration.framework in Frameworks */,
+				0EF9DC871F565CF200BD149E /* QuartzCore.framework in Frameworks */,
+				0EF9DC851F565CE700BD149E /* CoreLocation.framework in Frameworks */,
+				0EF9DC831F565CD800BD149E /* AdSupport.framework in Frameworks */,
+				E7DC35492160C3023FC51ABE /* Pods_KP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EF9DC921F565DF300BD149E /* GDT */ = {
+			isa = PBXGroup;
+			children = (
+				0EF9DC931F565E0000BD149E /* lib */,
+			);
+			path = GDT;
+			sourceTree = "<group>";
+		};
+		0EF9DC931F565E0000BD149E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0EF9DC941F565E0000BD149E /* GDTMobBannerView.h */,
+				0EF9DC951F565E0000BD149E /* GDTMobInterstitial.h */,
+				0EF9DC961F565E0000BD149E /* GDTNativeAd.h */,
+				0EF9DC971F565E0000BD149E /* GDTNativeExpressAd.h */,
+				0EF9DC981F565E0000BD149E /* GDTNativeExpressAdView.h */,
+				0EF9DC991F565E0000BD149E /* GDTSplashAd.h */,
+				0EF9DC9A1F565E0000BD149E /* GDTTrack.h */,
+				0EF9DC9B1F565E0000BD149E /* libGDTMobSDK.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1E6B52172065FC240066EE49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B52182065FCE50066EE49 /* KPUserCenter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EE10D3A20568E0D00D28BA0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1EE10D3820568E0500D28BA0 /* MainNetworkApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5E11F55A1EE63C9C00217A41 /* SwiftPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				5E11F55E1EE63C9C00217A41 /* IndicatorFooter.swift */,
+				5E11F55F1EE63C9C00217A41 /* IndicatorHeader.swift */,
+				5E11F5601EE63C9C00217A41 /* IndicatorItem.swift */,
+				5E11F5611EE63C9C00217A41 /* RefreshView.swift */,
+				5E11F5621EE63C9C00217A41 /* ScrollViewExtension.swift */,
+			);
+			path = SwiftPullToRefresh;
+			sourceTree = "<group>";
+		};
+		5EED85ED2090113C00B08F21 /* YBPopupMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5EED85EE2090113C00B08F21 /* YBPopupMenu.h */,
+				5EED85EF2090113C00B08F21 /* YBPopupMenu.m */,
+			);
+			path = YBPopupMenu;
+			sourceTree = "<group>";
+		};
+		5EF3D3BC1ED3C47C00C849B7 = {
+			isa = PBXGroup;
+			children = (
+				5EF3D3C71ED3C47C00C849B7 /* KP */,
+				5EF3D3C61ED3C47C00C849B7 /* Products */,
+				804B1706FEC7C9CF47873EFE /* Pods */,
+				6ED6581ED547A53E70C7DF30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EF3D3C61ED3C47C00C849B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D3C51ED3C47C00C849B7 /* KP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EF3D3C71ED3C47C00C849B7 /* KP */ = {
+			isa = PBXGroup;
+			children = (
+				5E9450541FB9850300F2BAC2 /* KP.entitlements */,
+				5EF3D3DA1ED3C59600C849B7 /* Base */,
+				5EF3D3EC1ED3C59600C849B7 /* Singleton */,
+				5EF3D3DB1ED3C59600C849B7 /* Class */,
+				5EF3D3F11ED3C59600C849B7 /* Other */,
+				5EF3D3F61ED3C59600C849B7 /* Source */,
+				5EF3D3F81ED3C59600C849B7 /* Tool */,
+			);
+			path = KP;
+			sourceTree = "<group>";
+		};
+		5EF3D3DA1ED3C59600C849B7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D4061ED3CE3400C849B7 /* KPBaseTabBarController.swift */,
+				5E5647C21EE2E66C00CB972D /* KPRootNavigationController.swift */,
+				5EF3D4081ED3D41E00C849B7 /* KPBaseNavigationController.swift */,
+				5EF3D40A1ED3DD0E00C849B7 /* KPBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5EF3D3DB1ED3C59600C849B7 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D3DC1ED3C59600C849B7 /* Common */,
+				5EF3D3E41ED3C59600C849B7 /* Main */,
+				5EF3D3ED1ED3C59600C849B7 /* Store */,
+				5EF3D3E01ED3C59600C849B7 /* List */,
+				71404F47202971B000832B20 /* Idea */,
+				5EF3D3E81ED3C59600C849B7 /* Me */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		5EF3D3DC1ED3C59600C849B7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D3DD1ED3C59600C849B7 /* Controller */,
+				5EF3D3DE1ED3C59600C849B7 /* Model */,
+				5EF3D3DF1ED3C59600C849B7 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5EF3D3DD1ED3C59600C849B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E56475B1ED9887A00CB972D /* KPWebViewController.swift */,
+				5E5647531ED97BB200CB972D /* KPBookListController.swift */,
+				5E56477B1EDEB5C500CB972D /* KPBookInfoController.swift */,
+				0EDE5D571F0536AF009BDD75 /* KPMoreInsController.swift */,
+				0EDE5D581F0536AF009BDD75 /* KPMoreInsController.xib */,
+				5E11F5501EE51A6B00217A41 /* KPLoginController.swift */,
+				5E11F5511EE51A6B00217A41 /* KPLoginController.xib */,
+				5EE549A11F0DDBFA006397A2 /* KPLaunchController.swift */,
+				5E3401E01F175AEA00283463 /* KPPaymentController.swift */,
+				5E25522120E31A32008CA4BC /* KPPaymentQRCodeController.swift */,
+				5E25522220E31A32008CA4BC /* KPPaymentQRCodeController.xib */,
+				5EE063451FA9589C0053814B /* KPTagSearchController.swift */,
+				5E4D85EF1FF9116E006A3D48 /* KPLogController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EF3D3DE1ED3C59600C849B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E38DFB11EE78F2100F64D71 /* KPModel.swift */,
+				47C1F3CD2078AFF80077F30B /* KPIdeaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EF3D3DF1ED3C59600C849B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E5647571ED97C7A00CB972D /* KPBookInfoCell.swift */,
+				5E5647581ED97C7A00CB972D /* KPBookInfoCell.xib */,
+				5E5647BC1EE2A58900CB972D /* KPBookInfoNoDetailCell.swift */,
+				5E5647BD1EE2A58900CB972D /* KPBookInfoNoDetailCell.xib */,
+				5E5647751EDDBCD700CB972D /* RatingBar.swift */,
+				5E56477D1EDEC1AC00CB972D /* KPBookInfoHeadCell.swift */,
+				5E56477E1EDEC1AC00CB972D /* KPBookInfoHeadCell.xib */,
+				5E5647811EDEC8A800CB972D /* KPBookFormatCell.swift */,
+				5E5647851EDEF29E00CB972D /* KPBookInsCell.swift */,
+				5E5647861EDEF29E00CB972D /* KPBookInsCell.xib */,
+				5E5647891EDF139700CB972D /* ADButton.swift */,
+				5E3401E21F17938000283463 /* KPPayInfoCell.swift */,
+				5E3401E31F17938000283463 /* KPPayInfoCell.xib */,
+				5EE063481FA95A280053814B /* KPEmpty.swift */,
+				5EE063471FA95A270053814B /* KPEmpty.xib */,
+				5EAB0317208D72A1009C1B84 /* KPEmptyTableViewCell.swift */,
+				5EAB0318208D72A1009C1B84 /* KPEmptyTableViewCell.xib */,
+				47FF40B620776F7E0061165F /* KPBookIdeaCell.swift */,
+				47FF40B720776F7E0061165F /* KPBookIdeaCell.xib */,
+				47FF40BA207774D60061165F /* KPGuessBookInfoCell.swift */,
+				47FF40BB207774D60061165F /* KPGuessBookInfoCell.xib */,
+				47C1F3D12078B4ED0077F30B /* KPBookInfoHeaderView.swift */,
+				47C1F3D22078B4ED0077F30B /* KPBookInfoHeaderView.xib */,
+				47C1F3D52078E7030077F30B /* KPBookInfoKeyCell.swift */,
+				47C1F3D62078E7030077F30B /* KPBookInfoKeyCell.xib */,
+				47C1F3E520832EFB0077F30B /* KPBookInfoBaseCell.swift */,
+				47C1F3D92078EE5A0077F30B /* KPBookInfoDetailCell.swift */,
+				47C1F3DA2078EE5A0077F30B /* KPBookInfoDetailCell.xib */,
+				47C1F3DD20790C490077F30B /* KPBookInfoFooterView.swift */,
+				47C1F3DE20790C490077F30B /* KPBookInfoFooterView.xib */,
+				47C1F3E1207A40C40077F30B /* KPBookInfoContentCell.swift */,
+				47C1F3E2207A40C40077F30B /* KPBookInfoContentCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EF3D3E01ED3C59600C849B7 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D3E11ED3C59600C849B7 /* Controller */,
+				5EF3D3E21ED3C59600C849B7 /* Model */,
+				5EF3D3E31ED3C59600C849B7 /* View */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		5EF3D3E11ED3C59600C849B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E5647611EDC617E00CB972D /* KPBookCollectionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EF3D3E21ED3C59600C849B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EF3D3E31ED3C59600C849B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E5647631EDC62FE00CB972D /* KPBookCollectionCell.swift */,
+				5E5647641EDC62FE00CB972D /* KPBookCollectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EF3D3E41ED3C59600C849B7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1E6B52172065FC240066EE49 /* Model */,
+				1EE10D3A20568E0D00D28BA0 /* API */,
+				5EF3D3E51ED3C59600C849B7 /* Controller */,
+				5EF3D3E71ED3C59600C849B7 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5EF3D3E51ED3C59600C849B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D40C1ED3DD7800C849B7 /* KPMainController.swift */,
+				5E56475F1EDC579800CB972D /* KPRankListController.swift */,
+				5E5647C01EE2ACDE00CB972D /* KPMainSearchController.swift */,
+				1EE10D69205A4BF000D28BA0 /* KPStaticResultViewController.swift */,
+				1EE10D6B205A5DA100D28BA0 /* KPVagueResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EF3D3E71ED3C59600C849B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D40E1ED3E44B00C849B7 /* KPSegmentedControl.swift */,
+				5EF1498E1ED7D124001FD34A /* KPMainHeaderScrollView.swift */,
+				5E5647441ED824C400CB972D /* KPMainEntryCell.swift */,
+				5E5647451ED824C400CB972D /* KPMainEntryCell.xib */,
+				5E56474F1ED96D7C00CB972D /* KPMainBooksCell.swift */,
+				5E5647501ED96D7C00CB972D /* KPMainBooksCell.xib */,
+				1EE10D3220564C4100D28BA0 /* KPAllSearchView.swift */,
+				1EE10D432059627700D28BA0 /* KPAllSearchTableViewCell.swift */,
+				1EE10D342056652B00D28BA0 /* KPSearchBookListCell.swift */,
+				1EE10D352056652B00D28BA0 /* KPSearchBookListCell.xib */,
+				1EE10D3B2058F68A00D28BA0 /* KPUserListTableViewCell.swift */,
+				1EE10D3C2058F68A00D28BA0 /* KPUserListTableViewCell.xib */,
+				1EE10D3F2058F6D900D28BA0 /* KPIdearListTableViewCell.swift */,
+				1EE10D402058F6D900D28BA0 /* KPIdearListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EF3D3E81ED3C59600C849B7 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D3E91ED3C59600C849B7 /* Controller */,
+				5EF3D3EA1ED3C59600C849B7 /* Model */,
+				5EF3D3EB1ED3C59600C849B7 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		5EF3D3E91ED3C59600C849B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E11F5421EE4E7F600217A41 /* KPPushCollectionController.swift */,
+				5E92CEF21FEE29EA003EDA6D /* KPBookShelfController.swift */,
+				5E11F5481EE4F47900217A41 /* KPUserInfoController.swift */,
+				0EDE5D5B1F054F2A009BDD75 /* KPAboutController.swift */,
+				0EDE5D5C1F054F2A009BDD75 /* KPAboutController.xib */,
+				47D99781205570E600528B87 /* KPMineViewController.swift */,
+				5EE959AA20C3C2E500A45AA9 /* KPIdeaHistoryController.swift */,
+				47D9978F205D5EBC00528B87 /* KPMineSettingViewController.swift */,
+				47D99799205E328700528B87 /* KPNicknameViewController.swift */,
+				47D9979A205E328700528B87 /* KPNicknameViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EF3D3EA1ED3C59600C849B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EF3D3EB1ED3C59600C849B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E11F5441EE4E91900217A41 /* KPPushCollectionCell.swift */,
+				5E11F5451EE4E91900217A41 /* KPPushCollectionCell.xib */,
+				5E11F54A1EE4F96000217A41 /* KPUserInfoCell.swift */,
+				5E11F54B1EE4F96000217A41 /* KPUserInfoCell.xib */,
+				477C47B1201A101D0013DA83 /* KPShelfBookInfoCell.swift */,
+				477C47B2201A101D0013DA83 /* KPShelfBookInfoCell.xib */,
+				47D997832055737800528B87 /* KPMineHeaderView.swift */,
+				47D997842055737800528B87 /* KPMineHeaderView.xib */,
+				47D997872056BCC000528B87 /* KPMineCollectionViewCell.swift */,
+				47D997882056BCC000528B87 /* KPMineCollectionViewCell.xib */,
+				5EE959AC20C3C74000A45AA9 /* KPIdeaHistoryCell.swift */,
+				5EE959AD20C3C74000A45AA9 /* KPIdeaHistoryCell.xib */,
+				47D9978B2056BCCE00528B87 /* KPMineDetailCollectionViewCell.swift */,
+				47D9978C2056BCCE00528B87 /* KPMineDetailCollectionViewCell.xib */,
+				47D99791205D6A8C00528B87 /* KPMineSettingTableViewCell.swift */,
+				47D99792205D6A8C00528B87 /* KPMineSettingTableViewCell.xib */,
+				47D9979D205E3EB700528B87 /* KPCustomSignatureView.swift */,
+				47D9979F205E3EC200528B87 /* KPCustomSignatureView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EF3D3EC1ED3C59600C849B7 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				5E11F54E1EE5056400217A41 /* KPUser.swift */,
+			);
+			name = Singleton;
+			path = Class/Singleton;
+			sourceTree = "<group>";
+		};
+		5EF3D3ED1ED3C59600C849B7 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D3EE1ED3C59600C849B7 /* Controller */,
+				5EF3D3EF1ED3C59600C849B7 /* Model */,
+				5EF3D3F01ED3C59600C849B7 /* View */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		5EF3D3EE1ED3C59600C849B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E56478F1EE027FD00CB972D /* KPBookCategoryController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EF3D3EF1ED3C59600C849B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E5647931EE02B9F00CB972D /* category.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EF3D3F01ED3C59600C849B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E5647951EE0363500CB972D /* KPBookCategoryCell.swift */,
+				5E5647961EE0363500CB972D /* KPBookCategoryCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EF3D3F11ED3C59600C849B7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D3F21ED3C59600C849B7 /* AppDelegate.swift */,
+				5EF3D3F31ED3C59600C849B7 /* Info.plist */,
+				5E9B522E1F0CE3A90084ADAA /* KP-Bridging-Header.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		5EF3D3F61ED3C59600C849B7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5EA2B9D41F4FCB8800D817D1 /* Assets.xcassets */,
+				5EA2B9E91F51764600D817D1 /* Launch Screen.storyboard */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5EF3D3F81ED3C59600C849B7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D3F91ED3C59600C849B7 /* Category */,
+				5EF3D3FA1ED3C59600C849B7 /* Define */,
+				5EF3D3FB1ED3C59600C849B7 /* NetWork */,
+				5EF3D3FC1ED3C59600C849B7 /* Vender */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		5EF3D3F91ED3C59600C849B7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D4041ED3C9E700C849B7 /* KPCategory.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5EF3D3FA1ED3C59600C849B7 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				5EF3D4021ED3C80800C849B7 /* KPDefine.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		5EF3D3FB1ED3C59600C849B7 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				5E11F5561EE53C7D00217A41 /* KPNetWork.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		5EF3D3FC1ED3C59600C849B7 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				5EED85ED2090113C00B08F21 /* YBPopupMenu */,
+				0EF9DC921F565DF300BD149E /* GDT */,
+				5E11F55A1EE63C9C00217A41 /* SwiftPullToRefresh */,
+				5E11F5581EE5764D00217A41 /* KPHud.swift */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		6ED6581ED547A53E70C7DF30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EF9DC901F565D2B00BD149E /* StoreKit.framework */,
+				0EF9DC8E1F565D2500BD149E /* Security.framework */,
+				0EF9DC8C1F565D1800BD149E /* libz.tbd */,
+				0EF9DC8A1F565D0500BD149E /* CoreTelephony.framework */,
+				0EF9DC881F565CFD00BD149E /* SystemConfiguration.framework */,
+				0EF9DC861F565CF200BD149E /* QuartzCore.framework */,
+				0EF9DC841F565CE700BD149E /* CoreLocation.framework */,
+				0EF9DC821F565CD800BD149E /* AdSupport.framework */,
+				60FAFE07B47CE187C785FA2C /* Pods_KP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71404F47202971B000832B20 /* Idea */ = {
+			isa = PBXGroup;
+			children = (
+				71404F48202971C400832B20 /* Controller */,
+				71404F4A202971DC00832B20 /* View */,
+				71404F49202971D500832B20 /* Model */,
+			);
+			path = Idea;
+			sourceTree = "<group>";
+		};
+		71404F48202971C400832B20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71404F4B2029724500832B20 /* KPIdeaController.swift */,
+				711C285E20456E7800C1D0DF /* KPAddIdeaController.swift */,
+				711C286220456EB100C1D0DF /* AddIdeaStoryboard.storyboard */,
+				71208461204A4E3000F79DB6 /* KPSelectBookController.swift */,
+				7120845F204A4E0000F79DB6 /* SelectBookStoryboard.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71404F49202971D500832B20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71404F4A202971DC00832B20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71404F672029E76800832B20 /* KPIdeaTableViewCell.swift */,
+				71404F682029E76800832B20 /* KPIdeaTableViewCell.xib */,
+				71687F71202ACEDF00FB3BA9 /* KPIdeaBookView.swift */,
+				71687F73202ACEF200FB3BA9 /* KPIdeaBookView.xib */,
+				71208463204A518700F79DB6 /* KPSelectBookCell.swift */,
+				71208464204A518700F79DB6 /* KPSelectBookCell.xib */,
+				71687F77202B0CEC00FB3BA9 /* ImagePreview */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71687F77202B0CEC00FB3BA9 /* ImagePreview */ = {
+			isa = PBXGroup;
+			children = (
+				71687F79202B0CEC00FB3BA9 /* ImagePreview.swift */,
+				71687F84202B122300FB3BA9 /* ImagePreview+Extension.swift */,
+			);
+			path = ImagePreview;
+			sourceTree = "<group>";
+		};
+		804B1706FEC7C9CF47873EFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				752B8CB7E264E8F54270C399 /* Pods-KP.debug.xcconfig */,
+				FDE33000F4D25AC4B2535346 /* Pods-KP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EF3D3C41ED3C47C00C849B7 /* KP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EF3D3D71ED3C47C00C849B7 /* Build configuration list for PBXNativeTarget "KP" */;
+			buildPhases = (
+				ABF20C7006FA9F2528609B34 /* [CP] Check Pods Manifest.lock */,
+				5EF3D3C11ED3C47C00C849B7 /* Sources */,
+				5EF3D3C21ED3C47C00C849B7 /* Frameworks */,
+				5EF3D3C31ED3C47C00C849B7 /* Resources */,
+				8D8CE5D0178AFC4A02A4A00B /* [CP] Embed Pods Frameworks */,
+				5E9450641FB9852A00F2BAC2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KP;
+			productName = KP;
+			productReference = 5EF3D3C51ED3C47C00C849B7 /* KP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EF3D3BD1ED3C47C00C849B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KP;
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = adoma;
+				TargetAttributes = {
+					5EF3D3C41ED3C47C00C849B7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 66LGNR44C2;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5EF3D3C01ED3C47C00C849B7 /* Build configuration list for PBXProject "KP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EF3D3BC1ED3C47C00C849B7;
+			productRefGroup = 5EF3D3C61ED3C47C00C849B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EF3D3C41ED3C47C00C849B7 /* KP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EF3D3C31ED3C47C00C849B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE959AF20C3C74000A45AA9 /* KPIdeaHistoryCell.xib in Resources */,
+				1EE10D422058F6D900D28BA0 /* KPIdearListTableViewCell.xib in Resources */,
+				5E11F54D1EE4F96000217A41 /* KPUserInfoCell.xib in Resources */,
+				47C1F3E4207A40C40077F30B /* KPBookInfoContentCell.xib in Resources */,
+				47C1F3D82078E7030077F30B /* KPBookInfoKeyCell.xib in Resources */,
+				47C1F3DC2078EE5A0077F30B /* KPBookInfoDetailCell.xib in Resources */,
+				47D9978E2056BCCE00528B87 /* KPMineDetailCollectionViewCell.xib in Resources */,
+				47D997862055737800528B87 /* KPMineHeaderView.xib in Resources */,
+				47C1F3D42078B4ED0077F30B /* KPBookInfoHeaderView.xib in Resources */,
+				47D997A0205E3EC200528B87 /* KPCustomSignatureView.xib in Resources */,
+				71687F74202ACEF200FB3BA9 /* KPIdeaBookView.xib in Resources */,
+				5E11F5471EE4E91900217A41 /* KPPushCollectionCell.xib in Resources */,
+				47D99794205D6A8C00528B87 /* KPMineSettingTableViewCell.xib in Resources */,
+				5E3401E51F17938000283463 /* KPPayInfoCell.xib in Resources */,
+				5EE063491FA95A280053814B /* KPEmpty.xib in Resources */,
+				5E56475A1ED97C7A00CB972D /* KPBookInfoCell.xib in Resources */,
+				71404F6A2029E76800832B20 /* KPIdeaTableViewCell.xib in Resources */,
+				1EE10D372056652B00D28BA0 /* KPSearchBookListCell.xib in Resources */,
+				0EDE5D5E1F054F2A009BDD75 /* KPAboutController.xib in Resources */,
+				5EA2B9D51F4FCB8800D817D1 /* Assets.xcassets in Resources */,
+				47D9979C205E328700528B87 /* KPNicknameViewController.xib in Resources */,
+				5E5647471ED824C400CB972D /* KPMainEntryCell.xib in Resources */,
+				5E5647521ED96D7C00CB972D /* KPMainBooksCell.xib in Resources */,
+				71208466204A518700F79DB6 /* KPSelectBookCell.xib in Resources */,
+				5E5647941EE02B9F00CB972D /* category.json in Resources */,
+				5E5647661EDC62FE00CB972D /* KPBookCollectionCell.xib in Resources */,
+				1EE10D3E2058F68A00D28BA0 /* KPUserListTableViewCell.xib in Resources */,
+				0EDE5D5A1F0536AF009BDD75 /* KPMoreInsController.xib in Resources */,
+				5EA2B9EA1F51764600D817D1 /* Launch Screen.storyboard in Resources */,
+				711C286320456EB100C1D0DF /* AddIdeaStoryboard.storyboard in Resources */,
+				5E25522420E31A32008CA4BC /* KPPaymentQRCodeController.xib in Resources */,
+				71208460204A4E0000F79DB6 /* SelectBookStoryboard.storyboard in Resources */,
+				5E5647981EE0363500CB972D /* KPBookCategoryCell.xib in Resources */,
+				5EAB031A208D72A1009C1B84 /* KPEmptyTableViewCell.xib in Resources */,
+				5E5647881EDEF29E00CB972D /* KPBookInsCell.xib in Resources */,
+				47D9978A2056BCC000528B87 /* KPMineCollectionViewCell.xib in Resources */,
+				5E5647801EDEC1AC00CB972D /* KPBookInfoHeadCell.xib in Resources */,
+				47FF40BD207774D60061165F /* KPGuessBookInfoCell.xib in Resources */,
+				47FF40B920776F7E0061165F /* KPBookIdeaCell.xib in Resources */,
+				5E11F5531EE51A6B00217A41 /* KPLoginController.xib in Resources */,
+				47C1F3E020790C490077F30B /* KPBookInfoFooterView.xib in Resources */,
+				477C47B4201A101D0013DA83 /* KPShelfBookInfoCell.xib in Resources */,
+				5E5647BF1EE2A58900CB972D /* KPBookInfoNoDetailCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D8CE5D0178AFC4A02A4A00B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KP/Pods-KP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HappyDNS/HappyDNS.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Qiniu/Qiniu.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HappyDNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Qiniu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KP/Pods-KP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF20C7006FA9F2528609B34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EF3D3C11ED3C47C00C849B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5647591ED97C7A00CB972D /* KPBookInfoCell.swift in Sources */,
+				5E3401E11F175AEA00283463 /* KPPaymentController.swift in Sources */,
+				5E11F56D1EE63C9C00217A41 /* ScrollViewExtension.swift in Sources */,
+				5E11F5691EE63C9C00217A41 /* IndicatorFooter.swift in Sources */,
+				5E56477F1EDEC1AC00CB972D /* KPBookInfoHeadCell.swift in Sources */,
+				5E5647461ED824C400CB972D /* KPMainEntryCell.swift in Sources */,
+				5E5647621EDC617E00CB972D /* KPBookCollectionController.swift in Sources */,
+				5EF3D3FD1ED3C59600C849B7 /* AppDelegate.swift in Sources */,
+				71687F7E202B0CEC00FB3BA9 /* ImagePreview.swift in Sources */,
+				71208465204A518700F79DB6 /* KPSelectBookCell.swift in Sources */,
+				0EDE5D5D1F054F2A009BDD75 /* KPAboutController.swift in Sources */,
+				5E56477C1EDEB5C500CB972D /* KPBookInfoController.swift in Sources */,
+				1EE10D362056652B00D28BA0 /* KPSearchBookListCell.swift in Sources */,
+				5EE063461FA9589C0053814B /* KPTagSearchController.swift in Sources */,
+				5EE549A21F0DDBFA006397A2 /* KPLaunchController.swift in Sources */,
+				47C1F3DF20790C490077F30B /* KPBookInfoFooterView.swift in Sources */,
+				5EF3D4071ED3CE3400C849B7 /* KPBaseTabBarController.swift in Sources */,
+				47D9979B205E328700528B87 /* KPNicknameViewController.swift in Sources */,
+				47C1F3D32078B4ED0077F30B /* KPBookInfoHeaderView.swift in Sources */,
+				47D9979E205E3EB700528B87 /* KPCustomSignatureView.swift in Sources */,
+				5E5647541ED97BB200CB972D /* KPBookListController.swift in Sources */,
+				5E5647911EE027FD00CB972D /* KPBookCategoryController.swift in Sources */,
+				47FF40B820776F7E0061165F /* KPBookIdeaCell.swift in Sources */,
+				5EF3D4031ED3C80800C849B7 /* KPDefine.swift in Sources */,
+				1EE10D412058F6D900D28BA0 /* KPIdearListTableViewCell.swift in Sources */,
+				5E5647601EDC579800CB972D /* KPRankListController.swift in Sources */,
+				5EF3D40F1ED3E44B00C849B7 /* KPSegmentedControl.swift in Sources */,
+				5EF1498F1ED7D124001FD34A /* KPMainHeaderScrollView.swift in Sources */,
+				5E5647C31EE2E66C00CB972D /* KPRootNavigationController.swift in Sources */,
+				47D99782205570E600528B87 /* KPMineViewController.swift in Sources */,
+				5EF3D4051ED3C9E700C849B7 /* KPCategory.swift in Sources */,
+				71687F85202B122300FB3BA9 /* ImagePreview+Extension.swift in Sources */,
+				5E5647871EDEF29E00CB972D /* KPBookInsCell.swift in Sources */,
+				5E5647651EDC62FE00CB972D /* KPBookCollectionCell.swift in Sources */,
+				1E6B52192065FCE50066EE49 /* KPUserCenter.swift in Sources */,
+				5EE0634A1FA95A280053814B /* KPEmpty.swift in Sources */,
+				5E11F5521EE51A6B00217A41 /* KPLoginController.swift in Sources */,
+				5EE959AE20C3C74000A45AA9 /* KPIdeaHistoryCell.swift in Sources */,
+				1EE10D3920568E0500D28BA0 /* MainNetworkApi.swift in Sources */,
+				5E5647BE1EE2A58900CB972D /* KPBookInfoNoDetailCell.swift in Sources */,
+				71208462204A4E3000F79DB6 /* KPSelectBookController.swift in Sources */,
+				47C1F3D72078E7030077F30B /* KPBookInfoKeyCell.swift in Sources */,
+				5EF3D40D1ED3DD7800C849B7 /* KPMainController.swift in Sources */,
+				711C286020456E7800C1D0DF /* KPAddIdeaController.swift in Sources */,
+				5E5647C11EE2ACDE00CB972D /* KPMainSearchController.swift in Sources */,
+				47C1F3CE2078AFF80077F30B /* KPIdeaModel.swift in Sources */,
+				5EF3D40B1ED3DD0E00C849B7 /* KPBaseViewController.swift in Sources */,
+				47D99790205D5EBC00528B87 /* KPMineSettingViewController.swift in Sources */,
+				47D9978D2056BCCE00528B87 /* KPMineDetailCollectionViewCell.swift in Sources */,
+				5E11F54F1EE5056400217A41 /* KPUser.swift in Sources */,
+				47C1F3E3207A40C40077F30B /* KPBookInfoContentCell.swift in Sources */,
+				5E11F56B1EE63C9C00217A41 /* IndicatorItem.swift in Sources */,
+				5E25522320E31A32008CA4BC /* KPPaymentQRCodeController.swift in Sources */,
+				5EE959AB20C3C2E500A45AA9 /* KPIdeaHistoryController.swift in Sources */,
+				5E3401E41F17938000283463 /* KPPayInfoCell.swift in Sources */,
+				5EED85F02090113C00B08F21 /* YBPopupMenu.m in Sources */,
+				1EE10D3D2058F68A00D28BA0 /* KPUserListTableViewCell.swift in Sources */,
+				5EAB0319208D72A1009C1B84 /* KPEmptyTableViewCell.swift in Sources */,
+				5E92CEF31FEE29EA003EDA6D /* KPBookShelfController.swift in Sources */,
+				47C1F3E620832EFB0077F30B /* KPBookInfoBaseCell.swift in Sources */,
+				5E11F56C1EE63C9C00217A41 /* RefreshView.swift in Sources */,
+				71404F692029E76800832B20 /* KPIdeaTableViewCell.swift in Sources */,
+				71687F72202ACEDF00FB3BA9 /* KPIdeaBookView.swift in Sources */,
+				5E38DFB21EE78F2100F64D71 /* KPModel.swift in Sources */,
+				5E5647761EDDBCD700CB972D /* RatingBar.swift in Sources */,
+				5E11F5491EE4F47900217A41 /* KPUserInfoController.swift in Sources */,
+				5E11F54C1EE4F96000217A41 /* KPUserInfoCell.swift in Sources */,
+				47FF40BC207774D60061165F /* KPGuessBookInfoCell.swift in Sources */,
+				5E11F5431EE4E7F600217A41 /* KPPushCollectionController.swift in Sources */,
+				5E11F5591EE5764D00217A41 /* KPHud.swift in Sources */,
+				5E5647831EDEC8A800CB972D /* KPBookFormatCell.swift in Sources */,
+				477C47B3201A101D0013DA83 /* KPShelfBookInfoCell.swift in Sources */,
+				5EF3D4091ED3D41E00C849B7 /* KPBaseNavigationController.swift in Sources */,
+				47D997892056BCC000528B87 /* KPMineCollectionViewCell.swift in Sources */,
+				5E56475D1ED9887A00CB972D /* KPWebViewController.swift in Sources */,
+				5E11F56A1EE63C9C00217A41 /* IndicatorHeader.swift in Sources */,
+				1EE10D442059627700D28BA0 /* KPAllSearchTableViewCell.swift in Sources */,
+				5E11F5461EE4E91900217A41 /* KPPushCollectionCell.swift in Sources */,
+				47C1F3DB2078EE5A0077F30B /* KPBookInfoDetailCell.swift in Sources */,
+				5E5647511ED96D7C00CB972D /* KPMainBooksCell.swift in Sources */,
+				47D99793205D6A8C00528B87 /* KPMineSettingTableViewCell.swift in Sources */,
+				47D997852055737800528B87 /* KPMineHeaderView.swift in Sources */,
+				71404F4C2029724500832B20 /* KPIdeaController.swift in Sources */,
+				5E4D85F01FF9116E006A3D48 /* KPLogController.swift in Sources */,
+				0EDE5D591F0536AF009BDD75 /* KPMoreInsController.swift in Sources */,
+				5E5647971EE0363500CB972D /* KPBookCategoryCell.swift in Sources */,
+				5E11F5571EE53C7D00217A41 /* KPNetWork.swift in Sources */,
+				1EE10D3320564C4100D28BA0 /* KPAllSearchView.swift in Sources */,
+				5E56478A1EDF139700CB972D /* ADButton.swift in Sources */,
+				1EE10D6A205A4BF000D28BA0 /* KPStaticResultViewController.swift in Sources */,
+				1EE10D6C205A5DA100D28BA0 /* KPVagueResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5EF3D3D51ED3C47C00C849B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EF3D3D61ED3C47C00C849B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai Jygoo Network Technology Co., Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shanghai Jygoo Network Technology Co., Ltd";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EF3D3D81ED3C47C00C849B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752B8CB7E264E8F54270C399 /* Pods-KP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = KP/KP.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shengxian zhao (C6482MKGK9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 66LGNR44C2;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = KP/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KP/Tool/Vender/GDT/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kp.jisihui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "KP/Other/KP-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5EF3D3D91ED3C47C00C849B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE33000F4D25AC4B2535346 /* Pods-KP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = KP/KP.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: shengxian zhao (66LGNR44C2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 66LGNR44C2;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = KP/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KP/Tool/Vender/GDT/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kp.jisihui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "KP/Other/KP-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EF3D3C01ED3C47C00C849B7 /* Build configuration list for PBXProject "KP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF3D3D51ED3C47C00C849B7 /* Debug */,
+				5EF3D3D61ED3C47C00C849B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EF3D3D71ED3C47C00C849B7 /* Build configuration list for PBXNativeTarget "KP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF3D3D81ED3C47C00C849B7 /* Debug */,
+				5EF3D3D91ED3C47C00C849B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EF3D3BD1ED3C47C00C849B7 /* Project object */;
+}
